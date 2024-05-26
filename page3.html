@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            body {
+                background-color: orangered;
+                height: 100%;
+            }
+            .container{
+                background-color: lightgreen;
+                border-radius: 100px;
+            width: 60%;
+            }
+            
+            #Project {
+                font-family: 'Times New Roman', Times, serif;
+                background-color: #A94438;
+                background-image: url(https://i.natgeofe.com/n/8632bc0a-6c1c-4f6c-80da-7aeda6ec47c5/Archipelago%20Philippines_4x3.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #Project .header {
+                color: black;
+                background-color: #E4DEBE;
+                text-align: center;
+                padding: 10px;
+                margin: 20px;
+            }
+
+            #Project .main {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            #Project .footer {
+                color: lightgrey;
+                background-color: #D24545;
+            }
+
+
+            #Project .product {
+                border: 1px solid black;
+                width: 300px;
+                background-color: #E6BAA3;
+                padding: 10px;
+                margin: 10px;
+            }
+
+            #Project .container {
+                margin: auto;
+                width: 1000px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                gap: 3px 3px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "TuguegaraoD NagaI PalawanD"
+                    "TuguegaraoI NagaD PalawanI"
+                    ". . .";
+            }
+
+            #Project .TuguegaraoD {
+                grid-area: TuguegaraoD;
+                border: 1px solid black;
+                background-color: #E6BAA3;
+                padding: 10px;
+            }
+
+            #Project .TuguegaraoI {
+                grid-area: TuguegaraoI;
+                border: 1px solid black;
+                background-color: #E6BAA3;
+                padding: 10px;
+            }
+
+            #Project .NagaI {
+                grid-area: NagaI;
+                border: 1px solid black;
+                background-color: #E6BAA3;
+                padding: 10px;
+            }
+
+            #Project .NagaD {
+                grid-area: NagaD;
+                border: 1px solid black;
+                background-color: #E6BAA3;
+                padding: 10px;
+            }
+
+            #Project .PalawanD {
+                grid-area: PalawanD;
+                border: 1px solid black;
+                background-color: #E6BAA3;
+                padding: 10px;
+            }
+
+            #Project .PalawanI {
+                grid-area: PalawanI;
+                border: 1px solid black;
+                background-color: #E6BAA3;
+                padding: 10px;
+            }
+
+            #Project img {
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="javascript:void(0)">
+                    <img class="rounded-circle" src="logo.png" width="48">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item" style="margin-top:-12px;">
+                            <a class="nav-link" href="mainpage.html">Home</a>
+                        </li>
+                        <li class="nav-item" style="margin-top:-12px;">
+                            <a class="nav-link active" href="page3.html">2Q Project</a>
+                        </li>
+                        <li class="nav-item" style="margin-top:-12px;">
+                            <a class="nav-link" href="page4.html">3Q Project</a>
+                        </li>
+                        <li class="nav-item" style="margin-top:-12px;">
+                            <a class="nav-link" href="page5.html">What's Next?</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h2 class="text-center">2nd Quarter Project</h2>
+        <br>
+        <div class="w-75 mx-auto" id="Project">
+            <div class="header">
+                <h1>PHILIPPINES</h1>
+            </div>
+            
+            <div class="container">
+                <div class="TuguegaraoD">
+                    <h3>Tuguegarao City, Cagayan Volley</h3>
+                    <p>Tuguegarao City is a city in Isabela that is famous for their Pancit Patil Batong and their Our Lady of
+                        Piat Church, which is located in Piat, minutes away from Tuguegarao.</p>
+                </div>
+                <div class="TuguegaraoI">
+                    <img src="https://7641islands.ph/wp-content/uploads/2022/06/IMG_2765-scaled.jpg">
+                </div>
+                <div class="NagaI">
+                    <img src="https://catholicshrinebasilica.com/wp-content/uploads/2023/09/cvrr.jpg">
+                </div>
+                <div class="NagaD">
+                    <h3>Naga City, Bicol</h3>
+                    <p>Goa City is part of region 5, which is Bicol. It consists of Legaspi City, Naga City, Albay City, and
+                        many more. Bicol is famous for its dish, named Bicol Express, that has a lot of delicious pork and
+                        famous for its spicy flavor. Our Lady of Penafrancia is also why Bicol is famous because this is what
+                        the people in Bicol believe other than God and Jesus Christ. </p>
+                </div>
+                <div class="PalawanD">
+                    <h3>Palawan</h3>
+                    <p>Palawan is one of the famous islands here in the Philippines, alongside Boracay. The part of Palawan that
+                        makes it popular is El Nido. The boats, and the refreshing-to-the-eyes beach, makes it also one of the
+                        enjoyable islands here in our country.</p>
+                </div>
+                <div class="PalawanI">
+                    <img
+                        src="https://media.cntraveler.com/photos/5668630dc3c9e01555a4d421/master/pass/palawan-philippines-coron-cr-alamy.jpg">
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </body>
+</html>
